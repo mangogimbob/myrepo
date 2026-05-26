@@ -1,0 +1,7 @@
+#!/bin/bash
+sum=0
+for num in "$@"
+do
+  ((sum += num))
+done
+echo $sum
